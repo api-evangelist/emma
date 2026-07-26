@@ -1,7 +1,18 @@
 aid: emma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emma.png
 name: Emma
-description: Emma is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Emma (by EDAILABS) is an AI-powered English language learning application built around a 3D interactive avatar tutor that offers real-time spoken conversation practice, instant pronunciation and grammar corrections, and personalized, adaptive learning paths. Positioned as "more than just a chatbot," the app models native accents and speech patterns for judgment-free practice available 24/7, and reports more than 500,000 users. It is a consumer iOS mobile application backed by Seedcamp; it publishes no public API, SDK, or developer platform at this time.
 url: https://raw.githubusercontent.com/api-evangelist/emma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,20 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: education
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Language Learning
+- English Learning
+- AI
+- Mobile App
+- Conversation Practice
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +42,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://emma-learn.com
+  url: https://emma-learn.com
+- type: Blog
+  url: https://emma-learn.com/learn/blog/
+- type: Support
+  url: https://emma-learn.com/contact.html
+- type: TermsOfService
+  url: https://emma-learn.com/terms.html
+- type: PrivacyPolicy
+  url: https://emma-learn.com/privacy.html
+- type: SignUp
+  url: https://apps.apple.com/app/id6737470910
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
